@@ -8,15 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>DOM Starter Kit</title>
-    <style>
-        body {
-            font-size: 24px;
-        }
-
-        #invisible {
-            display: none;
-        }
-    </style>
 </head>
 
 <body>
@@ -27,7 +18,7 @@
 
 
                     <div class="card-header bg-secondary text-light">
-                        Welcome <span id="name"></span> <span id="defMsg">Please login below</span>
+                        Welcome <span id="name"></span> <span id="defMsg">Please Login Below</span>
                     </div>
                     <div class="card-body p-0">
                         <div id="invisible">
@@ -36,18 +27,18 @@
                             <span id="age"></span>
                         </div>
                     </div>
-                    <form class="m-3" id="myForm">
-                        <label>Enter Your Name:
-                            <input type="text" id="nameInput" value="" />
+                    <form class="m-3 form-group" id="myForm">
+                        <label>
+                            <input type="text" id="nameInput" value="" placeholder="Name" />
                         </label>
-                        <label>Enter Your Email:
-                            <input type="text" id="emailInput" value="" />
+                        <label>
+                            <input type="text" id="emailInput" value="" placeholder="Email" />
                         </label>
-                        <label>Enter Your Age:
-                            <input type="text" id="ageInput" value="" />
+                        <label>
+                            <input type="text" id="ageInput" value="" placeholder="Age" />
                         </label>
                         <br>
-                        <button type="button" id="clickMe">Click Me</button>
+                        <button type="submit" id="clickMe">Click Me</button>
                     </form>
 
 
